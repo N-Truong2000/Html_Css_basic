@@ -1,0 +1,36 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --green: #54B792;
+    --gray: #3f3d56;
+    --green-hove: #a4cec0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0   auto;
+    padding: 0 10px;
+}
+header{
+ position: absolute;
+ width: 100%;
+
+}
+.navar{
+    display: flex;
+     padding: 20px 0  ;
+}
+$ git config --global user.email tranhuunhattruong2000@gmail.com
